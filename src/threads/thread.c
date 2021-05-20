@@ -633,7 +633,7 @@ allocate_tid (void)
 /* My code begin */
 
 /* 
-  From here, we implement 3 function newly declared in the bottom of the thread.h file:
+  Start from here, I implement 3 function which earlier declared in the bottom of the thread.h file:
   thread_sleep(): put the current thread into the sleep_list queue, update thread info, and call shcedule()
                   for the new thread shcedueling. This function will be called in timer_sleep()
 
@@ -689,12 +689,13 @@ thread_less_priority(const struct list_elem *a,const struct list_elem *b,void *a
 }
 
 
-//From this part, we implement functions that used in priority donation part
 /* 
+  From this part, I implement functions that used in Priority Donation part
   thread_priority_donate_nest(): implement nested prio donation. 
   thread_update_priority(): update the prio due to the lock prio of the thread held by the thread and compare it with the base prio
   lock_update_priority(): update the priority of the lock due to the waiting thread.                              
 */
+// This work still have some problem i'm trying to fix.
 void
 thread_priority_donate_nest(struct thread *t)
 {
