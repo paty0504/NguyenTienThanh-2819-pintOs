@@ -28,6 +28,6 @@ To avoid some confuse: This is the list of my work with Alarm clock problem:
  
  For further detail, view my REPORT (Vietnamese version).
 
-With Project 0, follow the instruction from the pintos document, i only modify os0/caltrain.c (for CalTrain Problem) and os0/reaction.c (for Chemical Reaction Problem). In this Project, there is not much previous code that could be confused with my code, so i don't have to use the comment as mentioned above.
+With Project 0, follow the instruction from the pintos document, i only modify os0/caltrain.c (for CalTrain Problem) and os0/reaction.c (for Chemical Reaction Problem). In this Project, there are not much previous codes that could be confused with mines,soIdon't have to use the comment as mentioned above.
 
 This project could not be completed without the support (from the lectures at my university) of my teacher, Dr.Pham Van Tien (SET,HUST) and the pintos document: https://web.stanford.edu/class/cs140/projects/pintos/
