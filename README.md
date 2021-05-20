@@ -11,7 +11,7 @@ For example:
 
 the code i've changed or modified
 
-//Some comment to explain
+//Some comments to explain
 
 ...
 
